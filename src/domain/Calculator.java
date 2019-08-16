@@ -19,6 +19,9 @@ public class Calculator implements ICalculator {
 
     }
 
+    public int getCount()
+    {return metricDistancesList.size();}
+
     @Override
     public double computeExpressionOfSumsAndSubstractions(String unitOutput) {
         double exp = metricDistancesList.get(0).getmValue();
